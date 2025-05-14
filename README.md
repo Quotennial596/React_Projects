@@ -1,6 +1,6 @@
 # 🔥 React Mini Projects Collection
 
-This repository contains a collection of mini-projects built using **React**. These projects demonstrate a variety of features and concepts in modern frontend development, including state management, context API, Redux Toolkit, hooks, and theme switching.
+This repository contains a collection of mini-projects built using **React**. These projects demonstrate a variety of features and concepts in modern frontend development, including state management, Context API, Redux Toolkit, hooks, theming, and routing.
 
 ---
 
@@ -15,8 +15,6 @@ A small app demonstrating how to use React **Context API** to manage and share s
   - Component-level consumption of shared state
   - Minimal and clean architecture
 
-=
-
 ---
 
 ### 2. 🔐 Password Generator
@@ -27,7 +25,6 @@ A utility app to generate secure passwords based on selected criteria (length, s
   - Selectable password length
   - Toggle for symbols, numbers, lowercase, and uppercase characters
   - Clipboard copy functionality
-
 
 ---
 
@@ -40,7 +37,6 @@ A simple app to toggle between light and dark themes using **CSS variables** and
   - Persistent theme using `localStorage`
   - Clean and responsive UI
 
-
 ---
 
 ### 4. ✅ Redux Toolkit Todo
@@ -50,8 +46,77 @@ A minimal **Todo App** built with **Redux Toolkit**, showcasing the power of sim
 - 🎯 Features:
   - Add, delete, toggle tasks
   - State management using Redux slice
-  - Developer-friendly structure
 
+---
+
+### 5. 🌗 Theme Toggle using Redux Toolkit
+A theme toggler app using **Redux Toolkit** for managing dark and light modes.
+
+- 🔧 Tech Stack: React, Redux Toolkit
+- 🎯 Features:
+  - Toggle between light and dark themes
+  - Redux slice for theme state
+
+---
+
+### 6. 🎨 Theme Toggle
+Another approach to toggling themes without Redux, using pure React.
+
+- 🔧 Tech Stack: React
+- 🎯 Features:
+  - Theme toggle using local component state
+  - Persistent theme with localStorage
+
+---
+
+### 7. 💸 Currency Converter
+Convert between different currencies using real-time exchange rates.
+
+- 🔧 Tech Stack: React, Fetch API
+- 🎯 Features:
+  - Select base and target currencies
+  - Live conversion rates
+  - Responsive UI
+
+---
+
+### 8. 🎨 Background Color Changer
+A simple app to change the background color dynamically.
+
+- 🔧 Tech Stack: React
+- 🎯 Features:
+  - Generate random background colors
+  - UI updates instantly
+
+---
+
+### 9. 🧠 Todo Context with LocalStorage
+Todo app using Context API with persistence in **localStorage**.
+
+- 🔧 Tech Stack: React, Context API
+- 🎯 Features:
+  - Add, delete, complete tasks
+  - Data persistence across reloads
+
+---
+
+### 10. 🔁 React Router Demo
+Demonstrates use of **React Router v6** for navigation between components.
+
+- 🔧 Tech Stack: React, React Router
+- 🎯 Features:
+  - Multi-page app simulation
+  - Navigation without page reload
+
+---
+
+### 11. 🧩 React Redux Toolkit Base Setup
+A starter setup using Redux Toolkit for beginners to understand the folder structure and logic.
+
+- 🔧 Tech Stack: React, Redux Toolkit
+- 🎯 Features:
+  - Setup for scalable state management
+  - Ready for integration in new projects
 
 ---
 
@@ -77,12 +142,20 @@ cd PasswordGenerator
 npm start
 
 📂 Folder Structure
-react-mini-projects/
+React_Projects/
 │
 ├── MiniContext/
 ├── PasswordGenerator/
 ├── ThemeSwitcher/
-└── reduxToolkitTodo/
+├── reduxToolkitTodo/
+├── ThemeToggle-using-redux-toolkit/
+├── theme_toggle/
+├── CurrencyConvertor/
+├── bg-changer/
+├── todoContextWithLocalStorage/
+├── react-redux-toolkit/
+└── reactRouter/
+
 
 📌 Requirements
 Node.js >= 14
